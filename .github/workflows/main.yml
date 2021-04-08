@@ -33,7 +33,7 @@ jobs:
         run: mvn clean
         
       - name: Step 3 clean project
-        run: .mvn test
+        run: mvn test
   
 
 
