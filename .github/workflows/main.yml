@@ -27,7 +27,7 @@ jobs:
       - name: Step 2 - Set up JDK 1.8
         uses: actions/checkout@v2
         with:
-          java-version: 1.8
+          image: maven:3.3.9-jdk-8
       - name: Step 3
         run: mvn compile
 
