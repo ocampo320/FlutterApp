@@ -32,9 +32,6 @@ jobs:
       - name: Step 2 clean project
         run: mvn clean
         
-      - name: Step 3 install  project
-        run: mvn install
-        
       - name: Step 4 install celan   project
         run: mvn celan install
         
