@@ -31,11 +31,9 @@ jobs:
           
       - name: Step 2 clean project
         run: mvn clean
+      
         
-      - name: Step 4 install celan   project
-        run: mvn test
-        
-      - name: Step 5 test projetc
+      - name: Step 4 test projetc
         run: mvn compile
 
 
